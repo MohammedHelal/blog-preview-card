@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Figtree;
+  src: url("./src/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+:root {
+  font-family: Figtree, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 12px;
+
+  /*Custom Colors*/
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 50%);
+  --color-black: hsl(0, 0%, 7%);
+
+  background-color: var(--color-yellow);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 96vh;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
